@@ -1,0 +1,12 @@
+{
+  "title":"标题", 
+  "alerts": {
+    "selectNumberField": "Alert Primary Info"
+  },
+  "labels": {
+    "number": "快递号"
+  },
+  "placeholder": {
+    "number": "请选择快递号对应的字段列"
+  }
+} 
