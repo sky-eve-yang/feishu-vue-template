@@ -1,12 +1,48 @@
 {
-  "title":"标题", 
+  "title":"Instagram 助手", 
   "alerts": {
-    "selectNumberField": "Alert Primary Info"
+    "selectNumberField": "检索一个 Instagram 用户发布的，包含特定标签（hashtag）的全部帖子，并将数据写回当前数据表",
+    "warning": "！！！注意不要高频次使用本插件，否则账号易被 Instagram 官方检测"
   },
   "labels": {
-    "number": "快递号"
+    "number": "快递号",
+    "apiDocument": "插件说明文档",
+    "headers": "Headers",
+    "params": "Params"
   },
   "placeholder": {
-    "number": "请选择快递号对应的字段列"
-  }
+    "cookie": "请依据说明文档，填写 IG Cookie",
+    "appId": "请依据说明文档，填写 IG X-Ig-App-ID",
+    "claim": "请依据说明文档，填写 IG X-Ig-Www-Claim",
+    "hashtag": "请输入要筛选的帖子标签，如：#spring",
+    "username": "请输入目标用户名，如：lakeandmonster"
+  },
+  "infoTip": {
+    "start": "插件运行中...",
+    "end": "运行结束",
+    "end_sentence": "该用户总计发布 postTotalNum 条帖子，该 hashtag 下共有 postNumFilteredHashtag 条帖子"
+  },
+  "errorTip": {
+    "empty_headers": "请填写必要的 Headers 信息",
+    "empty_params": "请填写必要的 Params 信息",
+    "empty_response_fields_selected": "请勾选需要返回的字段信息"
+  },
+  "selectGroup": {
+    "selectAll": "全选",
+    "postLink": "帖子链接",
+    "text": "文案",
+    "videoViewCount": "视频播放量",
+    "likeCount": "点赞量",
+    "commentCount": "评论量",
+    "createTime": "创建时间",
+    "requestTime": "数据获取时间",
+    "videoLink": "视频链接"
+  },
+  "fieldTypeChecks": {
+    "Number": "类型校验失败：类型不是数字",
+    "Text": "类型校验失败：类型不是文本",
+    "Datetime": "类型校验失败：类型不是日期",
+    "Attachment": "类型校验失败：类型不是附件"
+  },
+  "sumbit": "运行插件"
 } 
