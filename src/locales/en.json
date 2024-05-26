@@ -1,3 +1,48 @@
 {
-  "title":"title"
+  "title": "Instagram Helper",
+  "alerts": {
+    "selectNumberField": "Retrieve all posts from an Instagram user that include a specific hashtag, and write the data back to the current data table",
+    "warning": "!!! Be careful not to use this plugin frequently, as your account may be detected by Instagram officials"
+  },
+  "labels": {
+    "number": "Tracking Number",
+    "apiDocument": "Plugin Documentation",
+    "headers": "Headers",
+    "params": "Params"
+  },
+  "placeholder": {
+    "cookie": "Please fill in the IG Cookie according to the documentation",
+    "appId": "Please fill in the IG X-Ig-App-ID according to the documentation",
+    "claim": "Please fill in the IG X-Ig-Www-Claim according to the documentation",
+    "hashtag": "Enter the hashtag of the posts to filter, e.g.: #spring",
+    "username": "Enter the target username, e.g.: lakeandmonster"
+  },
+  "infoTip": {
+    "start": "Plugin is running...",
+    "end": "Operation completed",
+    "end_sentence": "The user has a total of postTotalNum posts, there are postNumFilteredHashtag posts under this hashtag"
+  },
+  "errorTip": {
+    "empty_headers": "Please fill in the necessary Headers information",
+    "empty_params": "Please fill in the necessary Params information",
+    "empty_response_fields_selected": "Please select the fields to be returned"
+  },
+  "selectGroup": {
+    "selectAll": "Select All",
+    "postLink": "Post Link",
+    "text": "Text",
+    "videoViewCount": "Video View Count",
+    "likeCount": "Like Count",
+    "commentCount": "Comment Count",
+    "createTime": "Creation Time",
+    "requestTime": "Data Retrieval Time",
+    "videoLink": "Video Link"
+  },
+  "fieldTypeChecks": {
+    "Number": "Type Check Failed: Type is not a number",
+    "Text": "Type Check Failed: Type is not text",
+    "Datetime": "Type Check Failed: Type is not a date",
+    "Attachment": "Type Check Failed: Type is not an attachment"
+  },
+  "submit": "Run Plugin"
 }
